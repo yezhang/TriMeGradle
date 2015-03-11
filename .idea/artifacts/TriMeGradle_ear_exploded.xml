@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="TriMeGradle:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TriMeGradle_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TriMeGradle/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="TriMeGradle:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+        <element id="library" level="project" name="Spring MVC-4.1.5.RELEASE" />
+        <element id="library" level="project" name="Spring-4.1.5.RELEASE" />
+      </element>
+    </root>
+  </artifact>
+</component>
