@@ -48,4 +48,9 @@
         <servlet-name>appServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <!-- 首页文件列表必须设置为空，从而使得SpringMVC接管处理首页 -->
+    <welcome-file-list>
+        <welcome-file></welcome-file>
+    </welcome-file-list>
 </web-app>

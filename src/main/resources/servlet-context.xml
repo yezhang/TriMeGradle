@@ -32,4 +32,9 @@
         <property name="accountService" ref="AccountService"/>
     </bean>
 
+    <bean name="/wechat" class="trime.business.wechatbridge.WeChatAccessController"/>
+
+    <!-- 控制首页内容 -->
+    <mvc:view-controller path="/" view-name="redirect:welcome" />
+
 </beans>
