@@ -1,7 +1,10 @@
 package trime.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.Controller;
+
 import trime.business.userinfo.AccountService;
 
 import javax.servlet.http.HttpServletRequest;
@@ -10,18 +13,17 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Created by better on 15/3/10.
  */
-public class WelcomeController implements Controller {
-    public AccountService getAccountService() {
-        return accountService;
-    }
+@Controller
+public class WelcomeController {
 
+    private AccountService accountService;
+
+    @Autowired
     public void setAccountService(AccountService accountService) {
         this.accountService = accountService;
     }
 
-    private AccountService accountService;
-
-    @Override
+    @RequestMapping("/welcome")
     public ModelAndView handleRequest(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         //1、收集参数、验证参数
         //2、绑定参数到命令对象

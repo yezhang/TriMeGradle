@@ -1,9 +1,11 @@
-package trime.business.wechatbridge;
+package trime.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import trime.business.wechatbridge.MessageService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,13 +18,19 @@ import java.security.MessageDigest;
  * Created by better on 15/3/11.
  */
 @Controller
-@RequestMapping("wechat")
+@RequestMapping("/wechat")
 public class WeChatAccessController {
 
     private static final String TOKEN = "yezhang";
 
+    private MessageService messageService;
 
-    @RequestMapping(method = RequestMethod.GET, produces = "text/html;charset=UTF-8")
+    @Autowired
+    public void setMessageService(MessageService messageService) {
+        this.messageService = messageService;
+    }
+
+    @RequestMapping( method = RequestMethod.GET, produces = "text/html;charset=UTF-8")
     @ResponseBody
     public String initWeChatURL(HttpServletRequest request) {
         String echostr = request.getParameter("echostr");
@@ -47,7 +55,7 @@ public class WeChatAccessController {
             response.setCharacterEncoding("UTF-8");
 
             // 调用核心业务类接收消息、处理消息
-            String respMessage = MessageService.processRequest(request);
+            String respMessage = messageService.processRequest(request);
 
             // 响应消息
             PrintWriter out = response.getWriter();
