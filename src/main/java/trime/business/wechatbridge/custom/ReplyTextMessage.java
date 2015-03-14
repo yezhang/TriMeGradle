@@ -1,5 +1,7 @@
 package trime.business.wechatbridge.custom;
 
+import trime.business.wechatbridge.message.IMessage;
+
 /**
  * Created by better on 15/3/13.
  */
@@ -19,6 +21,10 @@ public class ReplyTextMessage {
     private String touser;
     private String msgtype;
     private ContentMessage text;
+
+    public ReplyTextMessage(){
+        this.msgtype = IMessage.REPLY_TEXT_MESSAGE;
+    }
 
     public String getTouser() {
         return touser;

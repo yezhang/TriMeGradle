@@ -9,6 +9,7 @@
         <param-value>classpath*:root-context.xml</param-value>
     </context-param>
 
+
     <filter>
         <description>字符集过滤器</description>
         <filter-name>CharacterEncodingFilter</filter-name>
@@ -43,6 +44,7 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
+
 
     <servlet-mapping>
         <servlet-name>appServlet</servlet-name>
