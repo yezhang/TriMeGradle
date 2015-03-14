@@ -41,6 +41,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">${adminName}</a></li>
                 <li><a href="#">仪表盘</a></li>
                 <li><a href="#">设置</a></li>
                 <li><a href="#">帮助</a></li>
