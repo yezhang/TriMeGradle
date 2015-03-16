@@ -36,7 +36,7 @@
 <body>
 <div class="container">
 
-    <form class="form-signin" action="/admin/signin" method="post">
+    <form class="form-signin" action="admin/signin" method="post">
         <h2 class="form-signin-heading">登录 吹米</h2>
         <label for="inputEmail" class="sr-only">邮箱</label>
         <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="邮箱" required autofocus>

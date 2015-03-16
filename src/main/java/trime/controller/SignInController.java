@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  * Created by better on 15/3/14.
  */
 @Controller
-@RequestMapping("/admin")
+@RequestMapping("admin")
 public class SignInController {
 
     @RequestMapping(value = "/signin", method = RequestMethod.POST )

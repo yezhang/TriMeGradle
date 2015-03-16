@@ -14,22 +14,22 @@
     <title>吹米后台</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="../../static/components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/static/components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../../static/components/admin2/css/sb-admin-2.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/static/components/admin2/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Timeline CSS -->
-    <link href="../../static/components/timeline/timeline.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/static/components/timeline/timeline.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="../../static/components/morrisjs/morris.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/static/components/morrisjs/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../../static/components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/static/components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -873,18 +873,18 @@
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../../../static/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <script src="../../static/components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="${pageContext.request.contextPath}/static/components/metisMenu/dist/metisMenu.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="../../static/components/raphael/raphael-min.js"></script>
-    <script src="../../static/components/morrisjs/morris.min.js"></script>
-    <script src="../../static/components/morrisjs/morris-data.js"></script>
+    <script src="${pageContext.request.contextPath}/static/components/raphael/raphael-min.js"></script>
+    <script src="${pageContext.request.contextPath}/static/components/morrisjs/morris.min.js"></script>
+    <script src="${pageContext.request.contextPath}/static/components/morrisjs/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../../static/components/admin2/js/sb-admin-2.js"></script>
+    <script src="${pageContext.request.contextPath}/static/components/admin2/js/sb-admin-2.js"></script>
 
 </body>
 

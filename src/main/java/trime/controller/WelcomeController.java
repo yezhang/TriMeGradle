@@ -23,7 +23,7 @@ public class WelcomeController {
         this.accountService = accountService;
     }
 
-    @RequestMapping("/welcome")
+    @RequestMapping("welcome")
     public ModelAndView handleRequest(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         //1、收集参数、验证参数
         //2、绑定参数到命令对象

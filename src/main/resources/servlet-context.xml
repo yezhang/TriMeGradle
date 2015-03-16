@@ -31,7 +31,7 @@
 
     <!-- 处理器 -->
     <!-- 控制首页内容 -->
-    <mvc:view-controller path="/" view-name="redirect:/welcome"/>
+    <mvc:view-controller path="/" view-name="redirect:welcome"/>
     <mvc:view-controller path="/admin" view-name="/manager/SignIn"/>
 
 </beans>
