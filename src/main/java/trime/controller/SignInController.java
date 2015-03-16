@@ -3,7 +3,6 @@ package trime.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -29,7 +28,7 @@ public class SignInController {
         //添加模型数据 可以是任意的POJO对象
         mv.addObject("adminName", userName);
         //设置逻辑视图名，视图解析器会根据该名字解析到具体的视图页面
-        mv.setViewName("manager/Admin");
+        mv.setViewName("manager/AdminIndex");
 
         return mv;
     }
