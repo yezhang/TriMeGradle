@@ -17,7 +17,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>登录吹米</title>
 
     <!-- Bootstrap -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
 <body>
 <div class="container">
 
-    <form class="form-signin" action="/admin/signin" method="post">
+    <form class="form-signin" action="admin/dashboard" method="post">
         <h2 class="form-signin-heading">登录 吹米</h2>
         <label for="inputEmail" class="sr-only">邮箱</label>
         <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="邮箱" required autofocus>
