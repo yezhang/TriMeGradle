@@ -300,7 +300,7 @@
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panels-wells.html">Panels and Wells</a>
+                                    <a href="ManageOrder.jsp">Panels and Wells</a>
                                 </li>
                                 <li>
                                     <a href="buttons.html">Buttons</a>

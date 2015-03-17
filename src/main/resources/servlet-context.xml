@@ -7,6 +7,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket.xsd">
 
     <context:component-scan base-package="trime.controller"/>
+
     <mvc:annotation-driven/>
 
     <!-- Handles HTTP GET requests for /resources/** by efficiently serving
@@ -15,6 +16,15 @@
     <!--处理静态资源 交由Tomcat处理-->
     <mvc:default-servlet-handler />
 
+    <!-- URL映射到控制器 -->
+    <!--<bean id="simpleUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">-->
+
+        <!--<property name="mappings">-->
+            <!--<props>-->
+                <!--<prop key="/admin/manageorder"></prop>-->
+            <!--</props>-->
+        <!--</property>-->
+    <!--</bean>-->
     <!-- ViewResolver -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
