@@ -24,11 +24,11 @@ public class OrderController {
         return mv;
     }
 
-    @RequestMapping(value="/confirm", method = RequestMethod.POST)
-    public ModelAndView confirmOrder(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+    @RequestMapping(value="/publish", method = RequestMethod.POST)
+    public ModelAndView publishOrder(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         ModelAndView mv = new ModelAndView();
         //设置逻辑视图名，视图解析器会根据该名字解析到具体的视图页面
-        mv.setViewName("ConfirmOrder");
+        mv.setViewName("AnswerOrder");
 
         return mv;
     }
