@@ -19,10 +19,7 @@ repositories {
 
 dependencies {
     //dependency on loclal jars
-    compile name:"taglibs-standard-specl-$jstlVersion"
-    compile name:"taglibs-standard-impl-$jstlVersion"
-    compile name:"taglibs-standard-jstlel-$jstlVersion"
-    compile name:"taglibs-standard-compat-$jstlVersion"
+    compile fileTree(dir:'lib', include:'taglibs-standard*.jar')
 
     //dependency on remote jars
     compile "org.springframework:spring-context:$springVersion"
