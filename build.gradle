@@ -18,7 +18,10 @@ repositories {
 }
 
 dependencies {
-    compile 'javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1'
+    //dependency on loclal jars
+    compile fileTree(dir:'lib', include:'taglibs-standard*.jar')
+
+    //dependency on remote jars
     compile "org.springframework:spring-context:$springVersion"
     compile "org.springframework:spring-jdbc:$springVersion"
     compile "org.springframework:spring-tx:$springVersion"

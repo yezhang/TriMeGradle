@@ -25,7 +25,7 @@
                 <a href="../admin/dashboard"><i class="fa fa-dashboard fa-fw"></i> 仪表盘</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-users fa-fw"></i> 用户管理</a>
+                <a href="../admin/manageuser"><i class="fa fa-users fa-fw"></i> 用户管理</a>
             </li>
             <li>
                 <a href="../admin/manageorder"><i class="fa fa-table fa-fw"></i> 订单管理</a>
@@ -51,6 +51,9 @@
             </li>
             <li>
                 <a href="#"><i class="fa fa-gavel fa-fw"></i> 申诉管理</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-list fa-fw"></i> 系统日志</a>
             </li>
         </ul>
     </div>
