@@ -57,7 +57,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Blank</h1>
+                    <h1 class="page-header">用户管理</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -66,7 +66,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            DataTables Advanced Tables
+                           用户列表
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -74,11 +74,11 @@
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                     <tr>
-                                        <th>Rendering engine</th>
-                                        <th>Browser</th>
-                                        <th>Platform(s)</th>
-                                        <th>Engine version</th>
-                                        <th>CSS grade</th>
+                                        <th>姓名</th>
+                                        <th>性别</th>
+                                        <th>年龄</th>
+                                        <th>位置</th>
+                                        <th>备注</th>
                                     </tr>
                                     </thead>
                                     <tbody>

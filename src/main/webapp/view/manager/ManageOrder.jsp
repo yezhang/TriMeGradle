@@ -59,13 +59,12 @@
                 <div class="col-lg-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Default Panel
+                           订单1
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
                         </div>
                         <div class="panel-footer">
-                            Panel Footer
                         </div>
                     </div>
                 </div>
@@ -73,13 +72,12 @@
                 <div class="col-lg-4">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            Primary Panel
+                            订单2
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
                         </div>
                         <div class="panel-footer">
-                            Panel Footer
                         </div>
                     </div>
                 </div>
@@ -87,13 +85,12 @@
                 <div class="col-lg-4">
                     <div class="panel panel-success">
                         <div class="panel-heading">
-                            Success Panel
+                            订单3
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
                         </div>
                         <div class="panel-footer">
-                            Panel Footer
                         </div>
                     </div>
                 </div>
@@ -104,7 +101,7 @@
                 <div class="col-lg-4">
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                            Info Panel
+                            订单4
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
@@ -118,7 +115,7 @@
                 <div class="col-lg-4">
                     <div class="panel panel-warning">
                         <div class="panel-heading">
-                            Warning Panel
+                           订单5
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
@@ -132,7 +129,7 @@
                 <div class="col-lg-4">
                     <div class="panel panel-danger">
                         <div class="panel-heading">
-                            Danger Panel
+                           订单6
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
@@ -149,7 +146,7 @@
                 <div class="col-lg-4">
                     <div class="panel panel-green">
                         <div class="panel-heading">
-                            Green Panel
+                           订单7
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
@@ -163,7 +160,7 @@
                 <div class="col-lg-4">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
-                            Yellow Panel
+                           订单8
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
@@ -177,7 +174,7 @@
                 <div class="col-lg-4">
                     <div class="panel panel-red">
                         <div class="panel-heading">
-                            Red Panel
+                           订单9
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
@@ -344,14 +341,14 @@
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <div class="well well-lg">
+                    <div class="well">
                         <h4>Large Well</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
                     </div>
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <div class="well well-sm">
+                    <div class="well">
                         <h4>Small Well</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
                     </div>
