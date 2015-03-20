@@ -89,7 +89,7 @@
                                   +"<div>总价格      $price</div>"
                                   +"<div><button type='button' onclick='edit_order()'>修改订单</button></div>"
                                   +"<div><br/>各种协议提示</div>"
-                                  +"<div><input></a></div>");
+                                  +"<div><input type='submit' value='确认发布'/></div>");
         }
 
         function edit_order(){
@@ -99,7 +99,7 @@
     </script>
 </head>
 <body>
-    <form action="./order/confirm" method="post">
+    <form action="./publish" method="post">
         <div id="editOrder">
             <div style="overflow:hidden">
                 <div style="float:left;width:50%">

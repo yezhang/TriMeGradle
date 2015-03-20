@@ -28,7 +28,25 @@ public class OrderController {
     public ModelAndView publishOrder(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         ModelAndView mv = new ModelAndView();
         //设置逻辑视图名，视图解析器会根据该名字解析到具体的视图页面
-        mv.setViewName("AnswerOrder");
+        mv.setViewName("AnswerOrderList");
+
+        return mv;
+    }
+
+    @RequestMapping("/answererDetail")
+     public ModelAndView answererDetail(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //设置逻辑视图名，视图解析器会根据该名字解析到具体的视图页面
+        mv.setViewName("AnswererDetailInfo");
+
+        return mv;
+    }
+
+    @RequestMapping("/pay")
+    public ModelAndView pay(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //设置逻辑视图名，视图解析器会根据该名字解析到具体的视图页面
+        mv.setViewName("PayOrder");
 
         return mv;
     }
