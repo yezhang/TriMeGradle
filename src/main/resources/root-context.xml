@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
-                destroy-method="close">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url"
-                  value="jdbc:mysql://localhost:3306/trime" />
-        <property name="username" value="trime" />
-        <property name="password" value="trime@localhost" />
+                  value="jdbc:mysql://localhost:3306/trime"/>
+        <property name="username" value="trime"/>
+        <property name="password" value="trime@localhost"/>
+    </bean>
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="mappingLocations">
+            <list>
+                <value>classpath:trime/entity/hbm/User.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/trime</prop>
+                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
+            </props>
+        </property>
     </bean>
 
 

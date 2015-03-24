@@ -21,7 +21,8 @@
     <link href="../static/components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- DataTables CSS -->
-    <link href="../static/components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="../static/components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css"
+          rel="stylesheet">
 
     <!-- DataTables Responsive CSS -->
     <link href="../static/components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
@@ -47,9 +48,9 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-        <%@include file="IncludedTopBar.jsp"%>
+        <%@include file="IncludedTopBar.jsp" %>
 
-        <%@include file="IncludedSideBar.jsp"%>
+        <%@include file="IncludedSideBar.jsp" %>
 
     </nav>
     <!-- Page Content -->
@@ -66,7 +67,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                           用户列表
+                            用户列表
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -496,12 +497,12 @@
             </div>
             <!-- /.row -->
             <%--<c:forEach var="user" items="${requestScope.userList}">--%>
-                <%--<tr>--%>
-                    <%--<td><c:out value="${user.id}"/> </td>--%>
-                    <%--<td><c:out value="${user.name}"/> </td>--%>
-                    <%--<td><c:out value="${user.gender}"/> </td>--%>
-                    <%--<td><c:out value="${user.age}"/> </td>--%>
-                <%--</tr>--%>
+            <%--<tr>--%>
+            <%--<td><c:out value="${user.id}"/> </td>--%>
+            <%--<td><c:out value="${user.name}"/> </td>--%>
+            <%--<td><c:out value="${user.gender}"/> </td>--%>
+            <%--<td><c:out value="${user.age}"/> </td>--%>
+            <%--</tr>--%>
             <%--</c:forEach>--%>
         </div>
         <!-- /.container-fluid -->
@@ -529,12 +530,14 @@
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('#dataTables-example').DataTable({
-            responsive: true
+            "responsive": true,
+            "oLanguage": {
+                "sUrl":"../static/components/datatables-plugins/i18n/Chinese.lang"
+            }
         });
     });
 </script>
 </body>
 
-</html>

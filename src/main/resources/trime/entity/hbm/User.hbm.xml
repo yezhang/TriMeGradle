@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="trime.entity.User" table="trime_user" schema="" catalog="trime">
+        <id name="id">
+            <column name="id" sql-type="varchar" length="50" not-null="true"/>
+        </id>
+        <property name="userid">
+            <column name="userid" sql-type="varchar" length="32" not-null="true"/>
+        </property>
+        <property name="password">
+            <column name="password" sql-type="varchar" length="20" not-null="true"/>
+        </property>
+        <property name="username">
+            <column name="username" sql-type="varchar" length="20" not-null="true"/>
+        </property>
+        <property name="gender">
+            <column name="gender" sql-type="varchar" length="4"/>
+        </property>
+        <property name="age">
+            <column name="age" sql-type="int"/>
+        </property>
+        <property name="birthday">
+            <column name="birthday" sql-type="varchar" length="20"/>
+        </property>
+        <property name="picture">
+            <column name="picture" sql-type="varchar" length="30"/>
+        </property>
+        <property name="location">
+            <column name="location" sql-type="varchar" length="20"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="varchar"/>
+        </property>
+        <property name="school">
+            <column name="school" sql-type="varchar" length="50"/>
+        </property>
+        <property name="work">
+            <column name="work" sql-type="varchar" length="50"/>
+        </property>
+        <property name="phone">
+            <column name="phone" sql-type="varchar" length="20" not-null="true"/>
+        </property>
+        <property name="email">
+            <column name="email" sql-type="varchar" length="30" not-null="true"/>
+        </property>
+        <property name="isServiceProvider">
+            <column name="is_service_provider" sql-type="int" not-null="true"/>
+        </property>
+        <property name="isDeleted">
+            <column name="is_deleted" sql-type="int" not-null="true"/>
+        </property>
+        <property name="isLocked">
+            <column name="is_locked" sql-type="int" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
