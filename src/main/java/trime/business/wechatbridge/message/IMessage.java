@@ -12,4 +12,5 @@ public interface IMessage {
     public static final String LINK_MESSAGE = "link";
 
     public static final String REPLY_TEXT_MESSAGE = "";
+    public static final String SEND_NEWS_MESSAGE = "news";
 }
